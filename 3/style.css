@@ -1,0 +1,127 @@
+:root{
+    /* color */
+    --white-color:#FFF;
+    --black-color:#000;
+    --grey-light-color:#979696;
+    --carrot-color:#BA4706;
+    --background-color:#EFEFEF;
+    /* size */
+    --header-padding:80px 80px;
+    --menu-padding: 8px 32px;
+    --side-padding: 12px;
+    /* font size*/
+    --font-xlarge:128px;
+    --font-large:40px;
+    --font-medium:24px;
+    --font-small:22px;
+    --font-micro:18px;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: karla;
+    background: var(--background-color);
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--header-padding);
+    align-items: center;
+    width: 100%;
+}
+
+header .name{
+    color: var(--black-color);
+    font-size: var(--font-large);
+   
+}
+
+header .menu{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 36px;
+}
+
+header .menu li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header .menu li:hover{
+    border-bottom: solid 2px var(--carrot-color)
+}
+header .icons{
+    margin-left: 82px;
+}
+
+header .icons .fa-brands{
+    margin-left: 12px;
+}
+
+
+
+/*works*/
+
+.container{
+    height: 1000px;
+}
+.col{
+    text-align: right;
+    border-right: 2px solid darkgray;
+    padding: 30px 0 150px 0;
+}
+li{
+    list-style: none;
+
+}
+.number{
+    font-size: 68px;
+    font-family: Staatliches;
+    padding-bottom: 250px;
+}
+.p-name{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+.detail{
+    padding-bottom: 82px;
+}
+
+.img {
+    padding-top: 52px;
+}
+
+/* footer */
+footer .menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-content: space-between;
+    padding-top: 150px;
+}
+
+footer .menu li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .icons{
+    text-align: center;
+    margin-left: 22px;
+    padding-top: 40px;
+    padding-bottom: 180px;
+}
+
+footer .icons .fa-brands{
+    padding-left: 6px;
+    padding-right: 6px;
+}
